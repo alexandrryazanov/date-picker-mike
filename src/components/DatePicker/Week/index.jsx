@@ -11,7 +11,7 @@ const Week = ({ firstWeekDay, visibleMonth, onDayClick }) => {
     console.log("test");
 
     return () => {
-      console.log("test2");
+      console.log("test3");
     };
   }, []);
 
