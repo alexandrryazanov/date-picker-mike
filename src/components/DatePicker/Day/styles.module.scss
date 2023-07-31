@@ -1,0 +1,26 @@
+.wrapper {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:hover {
+    background: lightblue;
+  }
+}
+
+.today {
+  font-weight: bold;
+}
+
+.anotherMonth {
+  color: gray;
+  opacity: 0.5;
+}
+
+.weekend {
+  color: indianred;
+}
